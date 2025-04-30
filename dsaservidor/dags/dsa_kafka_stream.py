@@ -1,5 +1,3 @@
-# Data Science Academy
-
 # Importa o módulo `uuid` para gerar identificadores únicos universais
 import uuid
 

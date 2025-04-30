@@ -1,5 +1,3 @@
-# Data Science Academy
-
 # Imagem base
 FROM python:3.11-slim
 

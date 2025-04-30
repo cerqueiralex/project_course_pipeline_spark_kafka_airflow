@@ -1,31 +1,12 @@
-# Data Science Academy
-
-# Importa o módulo sys para manipulação de argumentos e interação com o sistema
-import sys
-
-# Importa o módulo logging para registro de logs
-import logging
-
-# Importa o módulo json para manipulação de dados no formato JSON
-import json
-
-# Importa o módulo re para manipulação de expressões regulares
-import re
-
-# Importa o módulo argparse para manipulação de argumentos da linha de comando
-import argparse
-
-# Importa a classe Cluster do Cassandra para criar conexões ao banco de dados
-from cassandra.cluster import Cluster
-
-# Importa o módulo SparkSession para criar sessões Spark
-from pyspark.sql import SparkSession
-
-# Importa funções do PySpark para manipulação de dados com Spark
-from pyspark.sql.functions import from_json, col, instr
-
-# Importa tipos de dados estruturados do PySpark
-from pyspark.sql.types import StructType, StructField, StringType
+import sys # Importa o módulo sys para manipulação de argumentos e interação com o sistema
+import logging # Importa o módulo logging para registro de logs
+import json # Importa o módulo json para manipulação de dados no formato JSON
+import re # Importa o módulo re para manipulação de expressões regulares
+import argparse # Importa o módulo argparse para manipulação de argumentos da linha de comando
+from cassandra.cluster import Cluster # Importa a classe Cluster do Cassandra para criar conexões ao banco de dados
+from pyspark.sql import SparkSession # Importa o módulo SparkSession para criar sessões Spark
+from pyspark.sql.functions import from_json, col, instr # Importa funções do PySpark para manipulação de dados com Spark
+from pyspark.sql.types import StructType, StructField, StringType # Importa tipos de dados estruturados do PySpark
 
 # Configura o logger para exibir mensagens de log com nível INFO
 logging.basicConfig(
